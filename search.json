@@ -1,719 +1,1210 @@
 {
-	"skill": "flare",
-	"children": [{
-			"skill": "Dine out ",
-			"children": [{
-					"skill": "Restaurant ",
-					"children": [{
-							"skill": "Chain ",
-							"children": [{
-									"name": "Error",
-									"level": "Temporarily Closed"
-								},
-								{
-									"name": "Error",
-									"level": "Permanently Closed"
-								},
-								{
-									"name": "Error",
-									"level": "Not on Dine Out"
-								},
-								{
-									"name": "Error",
-									"level": "Not Open Yet"
-								},
-								{
-									"name": "Search",
-									"level": "Press Search"
-								},
-								{
-									"name": "Chain Tap",
-									"level": "Chain Tap"
-								}
-							]
-						},
-						{
-							"skill": "Restaurant in a Chain ",
-							"children": [{
-									"name": "Error",
-									"level": "Temporarily Closed"
-								},
-								{
-									"name": "Error",
-									"level": "Permanently Closed"
-								},
-								{
-									"name": "Error",
-									"level": "Not on Dine Out"
-								},
-								{
-									"name": "Error",
-									"level": "Not Open Yet"
-								},
-								{
-									"name": "Search",
-									"level": "Press Search"
-								}
-							]
-						},
-						{
-							"skill": "Single Outlet Restaurant ",
-							"children": [{
-									"name": "Error",
-									"level": "Temporarily Closed"
-								},
-								{
-									"name": "Error",
-									"level": "Permanently Closed"
-								},
-								{
-									"name": "Error",
-									"level": "Not on Dine Out"
-								},
-								{
-									"name": "Error",
-									"level": "Not Open Yet"
-								},
-								{
-									"name": "Search",
-									"level": "Press Search"
-								}
-							]
-						}
-					]
-				},
-				{
-					"skill": "Cuisine ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Dish ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Location ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Establishment Type",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Category",
-					"children": [{
-							"skill": "Superdish",
-							"children": [{
-								"name": "Search",
-								"level": "Press Search"
-							}]
-						},
-						{
-							"skill": "Meal",
-							"children": [{
-								"name": "Search",
-								"level": "Press Search"
-							}]
-						}
-					]
-				},
-				{
-					"skill": "Events",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Attributes",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Special ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Unparsed",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				}
-			]
-		},
-		{
-			"skill": "Online Ordering",
-			"children": [{
-				"skill": "Restaurant ",
-				"children": [{
-						"skill": "Chain ",
-						"children": [{
-								"name": "Error",
-								"level": "Temporarily Closed"
-							},
-							{
-								"name": "Error",
-								"level": "Permanently Closed"
-							},
-							{
-								"name": "Error",
-								"level": "Not on O2"
-							},
-							{
-								"name": "Error",
-								"level": "Not Open Yet"
-							},
-							{
-								"name": "Error",
-								"level": "Not Accepting Orders Currently "
-							},
-							{
-								"name": "Error",
-								"level": "Location Not Serviceable "
-							},
-							{
-								"name": "Search",
-								"level": "Press Search"
-							},
-							{
-								"name": "Chain Tap",
-								"level": "Chain Tap"
-							}
-						]
-					},
-					{
-						"skill": "Restaurant in a Chain ",
-						"children": [{
-								"name": "Error",
-								"level": "Temporarily Closed"
-							},
-							{
-								"name": "Error",
-								"level": "Permanently Closed"
-							},
-							{
-								"name": "Error",
-								"level": "Not on O2"
-							},
-							{
-								"name": "Error",
-								"level": "Not Open Yet"
-							},
-							{
-								"name": "Error",
-								"level": "Not Accepting Orders Currently "
-							},
-							{
-								"name": "Error",
-								"level": "Location Not Serviceable "
-							},
-							{
-								"name": "Search",
-								"level": "Press Search"
-							}
-						]
-					},
-					{
-						"skill": "Single Outlet Restaurant ",
-						"children": [{
-								"name": "Error",
-								"level": "Temporarily Closed"
-							},
-							{
-								"name": "Error",
-								"level": "Permanently Closed"
-							},
-							{
-								"name": "Error",
-								"level": "Not on O2"
-							},
-							{
-								"name": "Error",
-								"level": "Not Open Yet"
-							},
-							{
-								"name": "Error",
-								"level": "Not Accepting Orders Currently "
-							},
-							{
-								"name": "Error",
-								"level": "Location Not Serviceable "
-							},
-							{
-								"name": "Search",
-								"level": "Press Search"
-							}
-						]
-					}
-				]
-			}]
-		},
-		{
-			"skill": "Online Ordering ",
-			"children": [{
-					"skill": "Cuisine ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Dish ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Location ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Establishment Type",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Category",
-					"children": [{
-							"skill": "Superdish",
-							"children": [{
-								"name": "Search",
-								"level": "Press Search"
-							}]
-						},
-						{
-							"skill": "Meal",
-							"children": [{
-								"name": "Search",
-								"level": "Press Search"
-							}]
-						}
-					]
-				},
-				{
-					"skill": "Events",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Attributes",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Special ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Unparsed",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				}
-			]
-		},
-		{
-			"skill": "Zomato Gold ",
-			"children": [{
-					"skill": "Restaurant ",
-					"children": [{
-							"skill": "Chain ",
-							"children": [{
-									"name": "Error",
-									"level": "Not on Zomato Gold "
-								},
-								{
-									"name": "Search",
-									"level": "Press Search"
-								},
-								{
-									"name": "Chain Tap",
-									"level": "Chain Tap"
-								},
-								{
-									"name": "Search",
-									"level": "Press Search"
-								}
-							]
-						},
-						{
-							"skill": "Restaurant in a Chain ",
-							"children": [{
-									"name": "Error",
-									"level": "Not on Zomato Gold "
-								},
-								{
-									"name": "Search",
-									"level": "Press Search"
-								},
-								{
-									"name": "Search",
-									"level": "Press Search"
-								}
-							]
-						},
-						{
-							"skill": "Single Outlet Restaurant ",
-							"children": [{
-									"name": "Error",
-									"level": "Not on Zomato Gold "
-								},
-								{
-									"name": "Search",
-									"level": "Press Search"
-								},
-								{
-									"name": "Search",
-									"level": "Press Search"
-								}
-							]
-						}
-					]
-				},
-				{
-					"skill": "Cuisine ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Dish ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Location ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Establishment Type",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Category",
-					"children": [{
-							"skill": "Superdish",
-							"children": [{
-								"name": "Search",
-								"level": "Press Search"
-							}]
-						},
-						{
-							"skill": "Meal",
-							"children": [{
-								"name": "Search",
-								"level": "Press Search"
-							}]
-						}
-					]
-				},
-				{
-					"skill": "Events",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Attributes",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Special ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Unparsed",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				}
-			]
-		},
-		{
-			"skill": "All",
-			"children": [{
-					"skill": "Restaurant ",
-					"children": [{
-							"skill": "Chain ",
-							"children": [{
-									"name": "Tap",
-									"level": "O2 but not open for Dine in"
-								},
-								{
-									"name": "Tap",
-									"level": "Dine in but not open for O2"
-								},
-								{
-									"name": "Tap",
-									"level": "Closed for both O2 & Dine in"
-								},
-								{
-									"name": "Tap",
-									"level": "Open for O2 & Dine in"
-								}
-							]
-						},
-						{
-							"skill": "Restaurant in a Chain ",
-							"children": [{
-									"name": "Tap",
-									"level": "O2 but not open for Dine in"
-								},
-								{
-									"name": "Tap",
-									"level": "Dine in but not open for O2"
-								},
-								{
-									"name": "Tap",
-									"level": "Closed for both O2 & Dine in"
-								},
-								{
-									"name": "Tap",
-									"level": "Open for O2 & Dine in"
-								}
-							]
-						},
-						{
-							"skill": "Single Outlet Restaurant ",
-							"children": [{
-									"name": "Tap",
-									"level": "O2 but not open for Dine in"
-								},
-								{
-									"name": "Tap",
-									"level": "Dine in but not open for O2"
-								},
-								{
-									"name": "Tap",
-									"level": "Closed for both O2 & Dine in"
-								},
-								{
-									"name": "Tap",
-									"level": "Open for O2 & Dine in"
-								}
-							]
-						}
-					]
-				},
-				{
-					"skill": "Cuisine ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Dish ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Location ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Establishment Type",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Category",
-					"children": [{
-							"skill": "Superdish",
-							"children": [{
-								"name": "Search",
-								"level": "Press Search"
-							}]
-						},
-						{
-							"skill": "Meal",
-							"children": [{
-								"name": "Search",
-								"level": "Press Search"
-							}]
-						}
-					]
-				},
-				{
-					"skill": "Events",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Attributes",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Special ",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				},
-				{
-					"skill": "Unparsed",
-					"children": [{
-						"skill": "",
-						"children": [{
-							"name": "Search",
-							"level": "Press Search"
-						}]
-					}]
-				}
-			]
-		}
-	]
+  "name": "flare",
+  "children": [
+    {
+      "name": "Dine out ",
+      "children": [
+        {
+          "name": "Restaurant ",
+          "children": [
+            {
+              "name": "Chain ",
+              "children": [
+                {
+                  "name": "Error",
+                  "children": [
+                    {
+                      "name": "Temporarily Closed",
+                      "value": 1
+                    },
+                    {
+                      "name": "Permanently Closed",
+                      "value": 1
+                    },
+                    {
+                      "name": "Not on Dine Out",
+                      "value": 1
+                    },
+                    {
+                      "name": "Not Open Yet",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Chain Tap",
+                  "children": [
+                    {
+                      "name": "Chain Tap",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Restaurant in a Chain ",
+              "children": [
+                {
+                  "name": "Error",
+                  "children": [
+                    {
+                      "name": "Temporarily Closed",
+                      "value": 1
+                    },
+                    {
+                      "name": "Permanently Closed",
+                      "value": 1
+                    },
+                    {
+                      "name": "Not on Dine Out",
+                      "value": 1
+                    },
+                    {
+                      "name": "Not Open Yet",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Single Outlet Restaurant ",
+              "children": [
+                {
+                  "name": "Error",
+                  "children": [
+                    {
+                      "name": "Temporarily Closed",
+                      "value": 1
+                    },
+                    {
+                      "name": "Permanently Closed",
+                      "value": 1
+                    },
+                    {
+                      "name": "Not on Dine Out",
+                      "value": 1
+                    },
+                    {
+                      "name": "Not Open Yet",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cuisine ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dish ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Location ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Establishment Type",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Category",
+          "children": [
+            {
+              "name": "Superdish",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Meal",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Events",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attributes",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Special ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unparsed",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Online Ordering",
+      "children": [
+        {
+          "name": "Restaurant ",
+          "children": [
+            {
+              "name": "Chain ",
+              "children": [
+                {
+                  "name": "Error",
+                  "children": [
+                    {
+                      "name": "Temporarily Closed",
+                      "value": 1
+                    },
+                    {
+                      "name": "Permanently Closed",
+                      "value": 1
+                    },
+                    {
+                      "name": "Not on O2",
+                      "value": 1
+                    },
+                    {
+                      "name": "Not Open Yet",
+                      "value": 1
+                    },
+                    {
+                      "name": "Not Accepting Orders Currently ",
+                      "value": 1
+                    },
+                    {
+                      "name": "Location Not Serviceable ",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Chain Tap",
+                  "children": [
+                    {
+                      "name": "Chain Tap",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Restaurant in a Chain ",
+              "children": [
+                {
+                  "name": "Error",
+                  "children": [
+                    {
+                      "name": "Temporarily Closed",
+                      "value": 1
+                    },
+                    {
+                      "name": "Permanently Closed",
+                      "value": 1
+                    },
+                    {
+                      "name": "Not on O2",
+                      "value": 1
+                    },
+                    {
+                      "name": "Not Open Yet",
+                      "value": 1
+                    },
+                    {
+                      "name": "Not Accepting Orders Currently ",
+                      "value": 1
+                    },
+                    {
+                      "name": "Location Not Serviceable ",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Single Outlet Restaurant ",
+              "children": [
+                {
+                  "name": "Error",
+                  "children": [
+                    {
+                      "name": "Temporarily Closed",
+                      "value": 1
+                    },
+                    {
+                      "name": "Permanently Closed",
+                      "value": 1
+                    },
+                    {
+                      "name": "Not on O2",
+                      "value": 1
+                    },
+                    {
+                      "name": "Not Open Yet",
+                      "value": 1
+                    },
+                    {
+                      "name": "Not Accepting Orders Currently ",
+                      "value": 1
+                    },
+                    {
+                      "name": "Location Not Serviceable ",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Online Ordering ",
+      "children": [
+        {
+          "name": "Cuisine ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dish ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Location ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Establishment Type",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Category",
+          "children": [
+            {
+              "name": "Superdish",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Meal",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Events",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attributes",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Special ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unparsed",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zomato Gold ",
+      "children": [
+        {
+          "name": "Restaurant ",
+          "children": [
+            {
+              "name": "Chain ",
+              "children": [
+                {
+                  "name": "Error",
+                  "children": [
+                    {
+                      "name": "Not on Zomato Gold ",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    },
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Chain Tap",
+                  "children": [
+                    {
+                      "name": "Chain Tap",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Restaurant in a Chain ",
+              "children": [
+                {
+                  "name": "Error",
+                  "children": [
+                    {
+                      "name": "Not on Zomato Gold ",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    },
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Single Outlet Restaurant ",
+              "children": [
+                {
+                  "name": "Error",
+                  "children": [
+                    {
+                      "name": "Not on Zomato Gold ",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    },
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cuisine ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dish ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Location ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Establishment Type",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Category",
+          "children": [
+            {
+              "name": "Superdish",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Meal",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Events",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attributes",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Special ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unparsed",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "All",
+      "children": [
+        {
+          "name": "Restaurant ",
+          "children": [
+            {
+              "name": "Chain ",
+              "children": [
+                {
+                  "name": "Tap",
+                  "children": [
+                    {
+                      "name": "O2 but not open for Dine in",
+                      "value": 1
+                    },
+                    {
+                      "name": "Dine in but not open for O2",
+                      "value": 1
+                    },
+                    {
+                      "name": "Closed for both O2 & Dine in",
+                      "value": 1
+                    },
+                    {
+                      "name": "Open for O2 & Dine in",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Restaurant in a Chain ",
+              "children": [
+                {
+                  "name": "Tap",
+                  "children": [
+                    {
+                      "name": "O2 but not open for Dine in",
+                      "value": 1
+                    },
+                    {
+                      "name": "Dine in but not open for O2",
+                      "value": 1
+                    },
+                    {
+                      "name": "Closed for both O2 & Dine in",
+                      "value": 1
+                    },
+                    {
+                      "name": "Open for O2 & Dine in",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Single Outlet Restaurant ",
+              "children": [
+                {
+                  "name": "Tap",
+                  "children": [
+                    {
+                      "name": "O2 but not open for Dine in",
+                      "value": 1
+                    },
+                    {
+                      "name": "Dine in but not open for O2",
+                      "value": 1
+                    },
+                    {
+                      "name": "Closed for both O2 & Dine in",
+                      "value": 1
+                    },
+                    {
+                      "name": "Open for O2 & Dine in",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cuisine ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dish ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Location ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Establishment Type",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Category",
+          "children": [
+            {
+              "name": "Superdish",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Meal",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Events",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attributes",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Special ",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unparsed",
+          "children": [
+            {
+              "name": "",
+              "children": [
+                {
+                  "name": "Search",
+                  "children": [
+                    {
+                      "name": "Press Search",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
