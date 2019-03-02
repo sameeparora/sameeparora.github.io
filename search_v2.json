@@ -533,12 +533,7 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "name": "Dine out ",
-      "children": [
+        },
         {
           "name": "Non Branded",
           "children": [
@@ -959,55 +954,7 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "Unparsed",
-          "children": [
-            {
-              "name": "Unparsed",
-              "children": [
-                {
-                  "name": "Unparsed",
-                  "children": [
-                    {
-                      "name": "Search for \"query\" Tile",
-                      "children": [
-                        {
-                          "name": "Tap",
-                          "children": [
-                            {
-                              "name": "Search Page: Go Out, Unparsed",
-                              "value": 1
-                            }
-                          ]
-                        },
-                        {
-                          "name": "Search",
-                          "children": [
-                            {
-                              "name": "Search Page: Go Out, Unparsed",
-                              "value": 1
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Dine out",
-      "children": [
-        {
-          "name": "Non Branded",
-          "children": [
+            },
             {
               "name": "Special",
               "children": [
@@ -1059,6 +1006,44 @@
                           "children": [
                             {
                               "name": "Deeplink?",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unparsed",
+          "children": [
+            {
+              "name": "Unparsed",
+              "children": [
+                {
+                  "name": "Unparsed",
+                  "children": [
+                    {
+                      "name": "Search for \"query\" Tile",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Search Page: Go Out, Unparsed",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Search Page: Go Out, Unparsed",
                               "value": 1
                             }
                           ]
