@@ -14,13 +14,13 @@
                   "name": "All Good",
                   "children": [
                     {
-                      "name": "Go Out Card",
+                      "name": "Go Out Res Card",
                       "children": [
                         {
                           "name": "Tap",
                           "children": [
                             {
-                              "name": "Res go out page",
+                              "name": "Go Out Res Page",
                               "value": 1
                             }
                           ]
@@ -29,7 +29,119 @@
                           "name": "Search",
                           "children": [
                             {
-                              "name": "Res go out page",
+                              "name": "Go Out Res Page",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Error: Temporarily Closed",
+                  "children": [
+                    {
+                      "name": "Go Out Res Error Card",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Error: Permanently Closed",
+                  "children": [
+                    {
+                      "name": "Go Out Res Error Card",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Error: Not on Dine Out",
+                  "children": [
+                    {
+                      "name": "Go Out Fallback Res Error Card",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Error: Not Open Yet",
+                  "children": [
+                    {
+                      "name": "Go Out Res Error Card",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Go Out Res Page",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Interstitial",
                               "value": 1
                             }
                           ]
@@ -53,7 +165,7 @@
                           "name": "Tap",
                           "children": [
                             {
-                              "name": "Res go out page",
+                              "name": "Go Out Res Page",
                               "value": 1
                             }
                           ]
@@ -62,7 +174,155 @@
                           "name": "Search",
                           "children": [
                             {
-                              "name": "Res go out page",
+                              "name": "Go Out Res Page",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tap on view all",
+                          "children": [
+                            {
+                              "name": "Chain Page/Modal",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Error: Temporarily Closed",
+                  "children": [
+                    {
+                      "name": "Go Out Chain Error Card, Searched Outlet",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tap on view all",
+                          "children": [
+                            {
+                              "name": "Chain Page/Modal",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Error: Permanently Closed",
+                  "children": [
+                    {
+                      "name": "Go Out Chain Error Card, Searched Outlet",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tap on view all",
+                          "children": [
+                            {
+                              "name": "Chain Page/Modal",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Error: Not on Dine Out",
+                  "children": [
+                    {
+                      "name": "Go Out Fallback Chain Error Card, Searched Outlet",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tap on view all",
+                          "children": [
+                            {
+                              "name": "Chain Page/Modal",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Error: Not Open Yet",
+                  "children": [
+                    {
+                      "name": "Go Out Chain Error Card, Searched Outlet",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Interstitial",
                               "value": 1
                             }
                           ]
@@ -81,12 +341,7 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "Restaurant ",
-          "children": [
+            },
             {
               "name": "Chain ",
               "children": [
@@ -100,7 +355,7 @@
                           "name": "Tap",
                           "children": [
                             {
-                              "name": "Res go out page",
+                              "name": "Go Out Res Page",
                               "value": 1
                             }
                           ]
@@ -110,6 +365,154 @@
                           "children": [
                             {
                               "name": "Chain Page/Modal",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tap on view all",
+                          "children": [
+                            {
+                              "name": "Chain Page/Modal",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Error: All Temporarily Closed",
+                  "children": [
+                    {
+                      "name": "Go Out Chain Error Card, Nearest Outlet",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tap on view all",
+                          "children": [
+                            {
+                              "name": "Chain Page/Modal",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Error: All Permanently Closed",
+                  "children": [
+                    {
+                      "name": "Go Out Chain Error Card, Nearest Outlet",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tap on view all",
+                          "children": [
+                            {
+                              "name": "Chain Page/Modal",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Error: All Not on Dine Out",
+                  "children": [
+                    {
+                      "name": "Go Out Fallback Chain Error Card, Searched Outlet",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tap on view all",
+                          "children": [
+                            {
+                              "name": "Chain Page/Modal",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Error: All Not Open Yet",
+                  "children": [
+                    {
+                      "name": "Go Out Chain Error Card, Nearest Outlet",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Interstitial",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Interstitial",
                               "value": 1
                             }
                           ]
