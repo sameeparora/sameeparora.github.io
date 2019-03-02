@@ -1,0 +1,142 @@
+{
+  "name": "Search",
+  "children": [
+    {
+      "name": "Dine Out",
+      "children": [
+        {
+          "name": "Restaurant",
+          "children": [
+            {
+              "name": "Single Outlet",
+              "children": [
+                {
+                  "name": "All Good",
+                  "children": [
+                    {
+                      "name": "Go Out Card",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Res go out page",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Res go out page",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Single Outlet Part of Chain",
+              "children": [
+                {
+                  "name": "All Good",
+                  "children": [
+                    {
+                      "name": "Go Out Chain Card, Searched Outlet ",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Res go out page",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Res go out page",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tap on view all",
+                          "children": [
+                            {
+                              "name": "Chain Page/Modal",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dine out ",
+      "children": [
+        {
+          "name": "Restaurant ",
+          "children": [
+            {
+              "name": "Chain ",
+              "children": [
+                {
+                  "name": "All Good",
+                  "children": [
+                    {
+                      "name": "Go Out Chain Card, Nearest Outlet ",
+                      "children": [
+                        {
+                          "name": "Tap",
+                          "children": [
+                            {
+                              "name": "Res go out page",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Chain Page/Modal",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tap on view all",
+                          "children": [
+                            {
+                              "name": "Chain Page/Modal",
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
