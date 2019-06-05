@@ -1,0 +1,44 @@
+{
+	"nodes": [{
+		"id": "category_2",
+		"group": 1,
+		"radius": 31002
+	}, {
+		"id": "red_1",
+		"group": 1,
+		"radius": 22759
+	}, {
+		"id": "opennow_1",
+		"group": 1,
+		"radius": 13341
+	}, {
+		"id": "bar_1",
+		"group": 1,
+		"radius": 9435
+	}, {
+		"id": "attribute_67",
+		"group": 1,
+		"radius": 8018
+	}],
+	"links": [{
+		"source": "attribute_67",
+		"target": "veg_1",
+		"value": 7993
+	}, {
+		"source": "category_2",
+		"target": "red_1",
+		"value": 6328
+	}, {
+		"source": "axis_1",
+		"target": "discount_ids_1",
+		"value": 4044
+	}, {
+		"source": "category_2",
+		"target": "opennow_1",
+		"value": 4032
+	}, {
+		"source": "discount_ids_1",
+		"target": "icici_1",
+		"value": 3775
+	}]
+}
